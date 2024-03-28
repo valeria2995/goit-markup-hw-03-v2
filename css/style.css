@@ -1,0 +1,209 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  font-style: normal;
+  line-height: normal;
+  color: rgba(33, 33, 33, 1);
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin: 0 auto;
+  width: 1200px;
+}
+
+:root {
+  --brand-color: rgba(33, 150, 243, 1);
+  --normal-color: rgba(33, 33, 33, 1);
+  --light-text-color: rgba(117, 117, 117, 1);
+}
+
+.menu {
+  width: 1200px;
+  height: 80px;
+  padding-left: 15px;
+  padding-right: 15x;
+  padding-top: 30px;
+}
+
+.first_ul {
+  list-style: none;
+  display: inline;
+  padding: 60px;
+}
+
+li {
+  display: inline;
+  padding: 30px;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+header {
+  background-color: rgb(255, 255, 255);
+  width: 1200px;
+}
+
+.logo {
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: var(--brand-color);
+  list-style: none;
+}
+
+.nav-item {
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--normal-color);
+}
+
+.nav-item:hover {
+  color: var(--brand-color);
+}
+
+.contact-nav-item {
+  font-weight: 500;
+  line-height: 16px;
+  color: var(--light-text-color);
+}
+
+.contact-nav-item:hover {
+  color: var(--brand-color);
+}
+.portada {
+  height: 600px;
+  width: 1200px;
+  background-color: rgba(47, 48, 58, 1);
+  text-align: center;
+  position: relative;
+}
+
+.div_portada {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main-title {
+  color: white;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 60px;
+}
+
+.button1 {
+  background-color: var(--brand-color);
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  border-color: var(--brand-color);
+  cursor: pointer;
+  padding: 20px;
+}
+
+.section1 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 10px;
+}
+
+.characteristics-subtitle {
+  font-weight: 700;
+  line-height: 16px;
+  width: 270px;
+}
+
+.characteristics-text {
+  color: var(--normal-color);
+}
+
+.text1 {
+  color: var(--light-text-color);
+  line-height: 24px;
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.div_section_title {
+  text-align: center;
+  justify-content: center;
+}
+
+.div_services_images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services_images {
+  padding: 0px;
+}
+
+.team {
+  background-color: rgba(245, 244, 250, 1);
+  margin-bottom: 0px;
+}
+
+.personas-names {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.personas-description {
+  font-size: 16px;
+  color: var(--light-text-color);
+}
+
+.section_images_personas {
+  display: flex;
+  justify-content: space-between;
+  height: 368px;
+}
+
+.section_images_personas_data {
+  text-align: center;
+  -webkit-box-shadow: 10px 5px 5px -8px rgba(186, 163, 186, 1);
+  -moz-box-shadow: 10px 5px 5px -8px rgba(186, 163, 186, 1);
+  box-shadow: 5px 10px 5px -8px rgba(186, 163, 186, 1);
+  background-color: white;
+  padding: 0px;
+}
+
+.footer_div {
+  padding-top: 40px;
+  padding-left: 100px;
+  height: 252px;
+  background-color: rgb(44, 41, 41);
+}
+
+.footer-list {
+  padding: 5px;
+  display: grid;
+  width: 231px;
+}
+
+.address2 {
+  color: rgba(255, 255, 255, 1);
+}
